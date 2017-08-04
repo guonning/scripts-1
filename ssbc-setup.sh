@@ -20,6 +20,7 @@ yum -y install wget net-tools unzip git
 #yum makecache
 yum -y install gcc gcc-c++ python-devel mariadb mariadb-devel mariadb-server
 git clone https://github.com/banwagong-news/ssbc.git
+chmod +x /root/ssbc/bin/ssbc-reboot.sh 
 cd /root/ssbc
 yum -y install epel-release 
 yum -y install  python-pip
